@@ -19,14 +19,8 @@ namespace RubberSlimeRemaster.Slimes
             };
             definition.Diet.MajorFoodGroups = new[]
             {
-                SlimeEat.FoodGroup.VEGGIES
-                
-            };
-            definition.Diet.AdditionalFoods = new[]
-            {
-                Identifiable.Id.WILD_HONEY_CRAFT,
-                Identifiable.Id.ROYAL_JELLY_CRAFT,
-                Identifiable.Id.HONEY_PLORT
+                SlimeEat.FoodGroup.VEGGIES,
+                Id.SWEET_FOODGROUP
             };
             definition.Diet.FavoriteProductionCount = 3;
             definition.Diet.Favorites = new[]

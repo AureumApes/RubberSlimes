@@ -21,16 +21,18 @@ namespace RubberSlimeRemaster
             new SlimePediaEntryTranslation(Id.RUBBER_SLIME_ENTRY).SetTitleTranslation("Rubber Slimes")
                 .SetIntroTranslation("Sorta Solid…")
                 .SetDietTranslation("Veggies and Sweets")
-                .SetFavoriteTranslation("None")
+                .SetFavoriteTranslation("Royal Jelly")
                 .SetSlimeologyTranslation("How they came to life? Idk, try invent some Rubber Slime lore lol")
                 .SetRisksTranslation("There are no specific risk, coming from Rubber  Slimes")
                 .SetPlortonomicsTranslation("Rubber Plort can be used as… well rubber");
+            TranslationPatcher.AddUITranslation("m.foodgroup." + Id.SWEET_FOODGROUP.ToString().ToLower(), "Sweets");
 
             HarmonyInstance.PatchAll();
         }
 
         public override void Load()
         {
+            FoodClass.Set();
             CreatePlort.CreateDreamPlort();
             CreateSlime.CreateRubberSlime();
             AddEatMap.PatchPinkSlimeEatMap();
