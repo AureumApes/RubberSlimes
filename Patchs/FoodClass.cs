@@ -1,5 +1,3 @@
-using System.Collections.Generic;
-
 namespace RubberSlimeRemaster.Patchs
 {
     public class FoodClass
