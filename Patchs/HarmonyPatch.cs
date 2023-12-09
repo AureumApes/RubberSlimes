@@ -11,7 +11,7 @@ namespace RubberSlimeRemaster.Patchs
             public static void Postfix(ref Identifiable.Id[] __result, SlimeEat.FoodGroup group)
             {
                 if (!SlimeEat.foodGroupIds.ContainsKey(Id.SWEET_FOODGROUP))
-                    SlimeEat.foodGroupIds.Add(Id.SWEET_FOODGROUP, FoodClass.SWEETS_CLASS.ToArray());
+                    SlimeEat.foodGroupIds.Add(Id.SWEET_FOODGROUP, FoodClass.SWEETS_CLASS);
                 if (__result == null)
                     return;
                 var list = __result.ToList();

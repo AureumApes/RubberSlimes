@@ -3,5 +3,11 @@
   "name": "Rubber Slimes (Remaster)",
   "author": "AureumApes",
   "description": "Bugfixes, Cleaner Code",
-  "version": "1.0"
+  "version": "1.1",
+  "dependencies": [
+    "translationapi 1.0"
+  ],
+  "load_after": [
+    "translationapi"
+  ]
 }

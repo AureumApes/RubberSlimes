@@ -39,6 +39,9 @@
         <Reference Include="Assembly-CSharp">
             <HintPath>..\..\srml-libs\Assembly-CSharp_old.dll</HintPath>
         </Reference>
+        <Reference Include="SlimeTranslationAPI">
+          <HintPath>..\..\..\..\..\home\aureumapes\Downloads\SlimeTranslationAPI-119-1-01-1619899893\SlimeTranslationAPI\SlimeTranslationAPI.dll</HintPath>
+        </Reference>
         <Reference Include="SRML">
             <HintPath>..\..\srml-libs\SRML.dll</HintPath>
         </Reference>
@@ -71,6 +74,12 @@
     </ItemGroup>
     <ItemGroup>
         <None Include="packages.config"/>
+    </ItemGroup>
+    <ItemGroup>
+        <EmbeddedResource Include="Translations\de.yaml"/>
+    </ItemGroup>
+    <ItemGroup>
+        <EmbeddedResource Include="Translations\sv.yaml"/>
     </ItemGroup>
     <PropertyGroup>
         <PublicizeAll>true</PublicizeAll>

@@ -1,8 +1,12 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fhome_002Faureumapes_002FDownloads_002FSlimeTranslationAPI_002D119_002D1_002D01_002D1619899893_002FSlimeTranslationAPI_002FSlimeTranslationAPI_002Edll/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fmnt_002FLinux_002DHDD_002FGames_002FSR_002Fgame_002FSRML_002FMods_002FShortcutLib_002Edll/@EntryIndexedValue">True</s:Boolean>
 	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;
   &lt;Assembly Path="/home/aureumapes/Downloads/DreamSlimes.dll" /&gt;
   &lt;Assembly Path="/mnt/Linux-HDD/Games/SR/game/SRML/Mods/RubberSlimesRemaster.dll" /&gt;
   &lt;Assembly Path="/home/aureumapes/Downloads/RubberSlimes.dll" /&gt;
-  &lt;Assembly Path="/home/aureumapes/Downloads/JUModPack Zip-409-2-0-1675391728/JUModPack.dll" /&gt;
+  &lt;Assembly Path="/mnt/Linux-HDD/Development/c-sharp/RubberSlimes/obj/Debug/PublicizedAssemblies/SRML.6A55732C6E45AD02E926727E2BD15E30/SRML.dll" /&gt;
+  &lt;Assembly Path="/mnt/Linux-HDD/Development/c-sharp/RubberSlimes/obj/Debug/PublicizedAssemblies/Assembly-CSharp_old.A226CC749F621B3988FE326D49D4536C/Assembly-CSharp_old.dll" /&gt;
+  &lt;Assembly Path="/home/aureumapes/Downloads/SlimeTranslationAPI-119-1-01-1619899893/SlimeTranslationAPI/SlimeTranslationAPI.dll" /&gt;
+  &lt;Assembly Path="/mnt/Linux-HDD/Development/c-sharp/RubberSlimes/obj/Debug/PublicizedAssemblies/SlimeTranslationAPI.FAF69203F095142FC0BCC44B111B20B8/SlimeTranslationAPI.dll" /&gt;
 &lt;/AssemblyExplorer&gt;</s:String></wpf:ResourceDictionary>

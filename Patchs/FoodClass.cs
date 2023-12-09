@@ -4,13 +4,11 @@ namespace RubberSlimeRemaster.Patchs
 {
     public class FoodClass
     {
-        internal static HashSet<Identifiable.Id> SWEETS_CLASS = new HashSet<Identifiable.Id>();
-
-        public static void Set()
+        internal static Identifiable.Id[] SWEETS_CLASS =
         {
-            SWEETS_CLASS.AddIfDoesNotContain(Identifiable.Id.WILD_HONEY_CRAFT);
-            SWEETS_CLASS.AddIfDoesNotContain(Identifiable.Id.ROYAL_JELLY_CRAFT);
-            SWEETS_CLASS.AddIfDoesNotContain(Identifiable.Id.HONEY_PLORT);
-        }
+            Identifiable.Id.WILD_HONEY_CRAFT,
+            Identifiable.Id.ROYAL_JELLY_CRAFT,
+            Identifiable.Id.HONEY_PLORT
+        };
     }
 }

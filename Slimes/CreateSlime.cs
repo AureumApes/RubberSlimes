@@ -44,7 +44,7 @@ namespace RubberSlimeRemaster.Slimes
             slimeObj.GetComponent<SlimeEat>().slimeDefinition = definition;
             slimeObj.GetComponent<Identifiable>().id = Id.RUBBER_SLIME;
             slimeObj.GetComponent<Vacuumable>().size = Vacuumable.Size.LARGE;
-            slimeObj.transform.localScale = new Vector3(0.75f, 0.75f, 0.75f);
+            slimeObj.transform.localScale = new Vector3(1f, 1f, 1f);
             Object.Destroy(slimeObj.GetComponent<PinkSlimeFoodTypeTracker>());
 
             var slimeAppearance = (SlimeAppearance)PrefabUtils.DeepCopyObject(byIdentifiableId.AppearancesDefault[0]);
